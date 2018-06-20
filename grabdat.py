@@ -10,16 +10,17 @@ import glob #file functions
 
 ''' --------- set up parameters for analysis ------ '''
 
-
+'''
 #test which machine we are on and set working directory
 if 'tom' in socket.gethostname():
     os.chdir('/home/tom/Dropbox/university/expts/microsaccades')
 else:
     print("I don't know where I am! ")
     print("Maybe the script will run anyway...")
+'''
 
 
-from pygazeanalyser.edfreader2 import read_edf #from https://github.com/esdalmaijer/PyGazeAnalyser/
+from pygazeanalyser.edfreader import read_edf #from https://github.com/esdalmaijer/PyGazeAnalyser/
     
 
 DATADIR='DATA'
