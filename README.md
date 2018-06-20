@@ -15,6 +15,8 @@ https://www.sr-support.com/forum/downloads/data-analysis/4557-eyelink-data-viewe
 https://github.com/esdalmaijer/PyGazeAnalyser/
 Dalmaijer, E.S., Mathôt, S., & Van der Stigchel, S. (2013). PyGaze: an open-source, cross-platform toolbox for minimal-effort programming of eye tracking experiments. Behaviour Research Methods. doi:10.3758/s13428-013-0422-2
 
+(Doesn't seem to be set up for binocular data in EDF files, but we are still truly gradeful)
+
 
 ### Microsaccade Toolbox 0.9
 Authors: Ralf Engbert, Petra Sinn, Konstantin Mergenthaler, Hans Trukenbrod
@@ -31,7 +33,7 @@ Download from http://read.psych.uni-potsdam.de/index.php?option=com_content&view
 - Run grabdat.py in Python 3. This will
 	- Identify all the runs for which we have EDF files
 	- Convert EDF to ASC using EDF2ASC 
-	- Use PyGaze to identify trial structure
+	- Use PyGaze to identify trial structure 
 	- save raw data in seperate .CSV file for each trial
 	- run count_microsaccades.R (which use MS_toolbox) to count the microsaccades
 	- save output in microsaccades.csv
