@@ -39,3 +39,13 @@ Download from http://read.psych.uni-potsdam.de/index.php?option=com_content&view
 - procdat.py does some initial analysis of the processed data
 
 
+## Run me
+
+It works on my machine, but you'll certainly need to install various dependendies etc. The best thing is probably try this at the command line
+
+<code>python3 grabdat.py</code>
+
+And see what happens
+
+![good luck](explosion.gif)
+
