@@ -28,7 +28,7 @@ Download from http://read.psych.uni-potsdam.de/index.php?option=com_content&view
 
 ## Process flow
 
-- Record head stablised binocular eyetracking data at 50Hz during a simple fixation task with 60 trials (a "run")
+- Record head stablised binocular eyetracking data at 500Hz during a simple fixation task with 60 trials (a "run")
 - Raw data in form of EDF file for each run into folder DATA in a named subfolder. 
 - Run grabdat.py in Python 3. This will
 	- Identify all the runs for which we have EDF files
